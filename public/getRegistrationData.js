@@ -2,11 +2,11 @@ var querystring = require('querystring');
 var https = require('https');
 
 var post_data = querystring.stringify({
-    accessKeyRef: '1X0m87dmM2LiwFgxPLBJ',
-    data: 'HBalUf7sKsj1NiktfVS7-5f7VT5gfRfurzYdVwY7bz_JK9LB7x1LkV_htgGfF8jmS4wCy-yiraxeE65tmxOe8A',
+    accessKeyRef: 'Your access key',
+    data: 'Your card registration data',
     cardNumber: '4706750000000009',
     cardExpirationDate: '1019',
-    cardCvx: '414'
+    cardCvx: '123'
 });
 
 // Set the headers
